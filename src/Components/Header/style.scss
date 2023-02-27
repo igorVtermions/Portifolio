@@ -1,0 +1,18 @@
+@import '../../Styles/variables.scss';
+@import '../../Styles/mixins.scss';
+
+.nav{
+    color: $text-color-primary;
+    width: 200%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px white solid;
+    
+
+    &__logo{
+        width: 70px;
+    }
+}
